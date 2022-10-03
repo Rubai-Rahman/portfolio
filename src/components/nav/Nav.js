@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "./Nav.css"
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai"
-import { RiServiceLine } from "react-icons/ri"
+import { VscProject } from "react-icons/vsc"
 import { BiBookAlt } from "react-icons/bi"
 import { FiMessageSquare } from "react-icons/fi"
 
@@ -31,11 +31,11 @@ const Nav = () => {
         <BiBookAlt />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        href="#projects"
+        onClick={() => setActiveNav("#projects")}
+        className={activeNav === "#projects" ? "active" : ""}
       >
-        <RiServiceLine />
+        <VscProject />
       </a>
       <a
         href="#contact"
