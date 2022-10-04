@@ -35,9 +35,15 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
-            velit asperiores commodi animi cupiditate accusantium alias veniam,
-            error enim pariatur.
+            Hello I am Rubai Rahman. I have completed B.sc in Computer Science and Engineering from Daffodil International University .
+            I am  Seeking an
+            entry -level web developer position where I can apply my
+            attention to detail and knowledge. I learned about web development.
+            I want to pursue my carrier as a mernstack web developer. To gain
+            confidence and fame using my potential in this position, and express
+            my innovative creative skills for self and company growth. I’m a
+            hardworking and quick learner. I believe hard work is the only way
+            to success. Love to learn new technology and try to improve myself.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
