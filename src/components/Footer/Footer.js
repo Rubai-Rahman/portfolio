@@ -6,9 +6,9 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <footer>
-      <a href="" className="footer_logo">
+      <a href="#" className="footer_logo">
         {" "}
-        Egator
+        Rubai Rahman
       </a>
       <ul className="permalinks">
         <li>
@@ -33,21 +33,21 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <AiFillGithub />
+          <AiFillGithub className="footer_socials-icons" />
         </a>
         <a
           href="https://www.linkedin.com/in/rubai-rahman-116707216/"
           target="_blank"
           rel="noreferrer"
         >
-          <AiFillLinkedin />
+          <AiFillLinkedin className="footer_socials-icons" />
         </a>
         <a
           href="https://twitter.com/RahmanRubai"
           target="_blank"
           rel="noreferrer"
         >
-          <FaTwitter />
+          <FaTwitter className="footer_socials-icons" />
         </a>
       </div>
 

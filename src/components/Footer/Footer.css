@@ -21,6 +21,7 @@ footer a {
   justify-content: center;
   gap: 2rem;
   margin: 0 auto 3rem;
+  font-size: 1.2rem;
 }
 .footer_socials {
   display: flex;
@@ -45,6 +46,10 @@ footer a {
 .footer_copyright {
   margin-bottom: 4rem;
   color: var(--color-bg);
+  font-size: 1rem;
+}
+.footer_socials-icons{
+  font-size: 1.5rem;
 }
 
 /*================media Queries (small Devices===============*/
