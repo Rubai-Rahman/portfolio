@@ -1,9 +1,10 @@
-import React from "react"
-import "./Project.css"
-import chrono from "../../assets/crono.jpeg"
-import doctor from "../../assets/doctor.jpeg"
-import mechanic from "../../assets/mechanic.jpeg"
-import honda from "../../assets/honda.jpeg"
+import React from "react";
+import "./Project.css";
+import chrono from "../../assets/crono.jpeg";
+import doctor from "../../assets/doctor.jpeg";
+import mechanic from "../../assets/mechanic.jpeg";
+import honda from "../../assets/honda.jpeg";
+import snake from "../../assets/snake.png";
 
 const projects = [
   {
@@ -29,12 +30,19 @@ const projects = [
   },
   {
     id: 4,
-    name: "Chrono Click",
+    name: "Rest Countries",
     img: honda,
-    github: "https://github.com/Rubai-Rahman/Chrono-Click",
-    demo: "https://nostalgic-noyce-55996e.netlify.app/",
+    github: "https://github.com/Rubai-Rahman/restCountries",
+    demo: "https://comfy-fenglisu-f924ce.netlify.app/",
   },
-]
+  {
+    id: 5,
+    name: "Snake Game",
+    img: snake,
+    github: "https://github.com/Rubai-Rahman/SnakeGame",
+    demo: "https://rubai-rahman.github.io/SnakeGame/",
+  },
+];
 const Projects = () => {
   return (
     <section id="projects">
@@ -65,15 +73,15 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Live Demo
+                  Live Link
                 </a>
               </div>
             </article>
-          )
+          );
         })}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
