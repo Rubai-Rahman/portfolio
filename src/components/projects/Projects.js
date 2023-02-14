@@ -37,6 +37,20 @@ const projects = [
   },
   {
     id: 5,
+    name: "Blog Site",
+    img: snake,
+    github: "https://github.com/Rubai-Rahman/Blog_App",
+    demo: "https://rec-rubai-rahman.vercel.app/",
+  },
+  {
+    id: 6,
+    name: "Admin DashBoard",
+    img: snake,
+    github: "https://github.com/Rubai-Rahman/dashboard",
+    demo: "https://sweet-melba-ac49d8.netlify.app/",
+  },
+  {
+    id: 7,
     name: "Snake Game",
     img: snake,
     github: "https://github.com/Rubai-Rahman/SnakeGame",
