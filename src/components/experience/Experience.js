@@ -65,6 +65,13 @@ const Experience = () => {
                 <small className="text-light">Beginner</small>
               </div>
             </article>
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
+              <div>
+                <h4>TypeScript</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
           </div>
         </div>
         {/*=====================BackEnd DevelopeMend===============*/}
@@ -91,6 +98,13 @@ const Experience = () => {
               <HiCheckCircle className="experience_details-icon" />
               <div>
                 <h4>MONGODB</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
+              <div>
+                <h4>Hasura</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>

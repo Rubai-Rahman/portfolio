@@ -5,7 +5,8 @@ import doctor from "../../assets/doctor.jpeg";
 import mechanic from "../../assets/mechanic.jpeg";
 import honda from "../../assets/honda.jpeg";
 import snake from "../../assets/snake.png";
-
+import blog from "../../assets/blog.png"
+import dashboard from "../../assets/dashboard.png"
 const projects = [
   {
     id: 1,
@@ -38,14 +39,14 @@ const projects = [
   {
     id: 5,
     name: "Blog Site",
-    img: snake,
+    img: blog,
     github: "https://github.com/Rubai-Rahman/Blog_App",
     demo: "https://rec-rubai-rahman.vercel.app/",
   },
   {
     id: 6,
     name: "Admin DashBoard",
-    img: snake,
+    img: dashboard,
     github: "https://github.com/Rubai-Rahman/dashboard",
     demo: "https://sweet-melba-ac49d8.netlify.app/",
   },

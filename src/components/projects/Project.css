@@ -1,6 +1,6 @@
 .project_container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
 }
 
@@ -25,24 +25,22 @@
 .project_item h3 {
   margin: 1.2rem 0 2rem;
 }
-.project_item-cta{
+.project_item-cta {
   display: flex;
   gap: 2rem;
   margin-bottom: 1rem;
 }
 
 /*================media Queries (Medium Devices===============*/
-@media screen and (max-width:1024px){
-  
-  .project_container{
+@media screen and (max-width: 1024px) {
+  .project_container {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
 }
 /*================media Queries (small Devices===============*/
-@media screen and (max-width:600px){
-  
-  .project_container{
+@media screen and (max-width: 600px) {
+  .project_container {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
