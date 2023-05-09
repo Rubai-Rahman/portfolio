@@ -5,8 +5,9 @@ import doctor from "../../assets/doctor.jpeg";
 import mechanic from "../../assets/mechanic.jpeg";
 import honda from "../../assets/honda.jpeg";
 import snake from "../../assets/snake.png";
-import blog from "../../assets/blog.png"
-import dashboard from "../../assets/dashboard.png"
+import cc from "../../assets/cc.png";
+import blog from "../../assets/blog.png";
+import dashboard from "../../assets/dashboard.png";
 const projects = [
   {
     id: 1,
@@ -38,20 +39,27 @@ const projects = [
   },
   {
     id: 5,
+    name: "Company Communication",
+    img: cc,
+    github: "https://github.com/Rubai-Rahman/company_comunication",
+    demo: "https://company-comunication-eight.vercel.app/",
+  },
+  {
+    id: 6,
     name: "Blog Site",
     img: blog,
     github: "https://github.com/Rubai-Rahman/Blog_App",
     demo: "https://rec-rubai-rahman.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     name: "Admin DashBoard",
     img: dashboard,
     github: "https://github.com/Rubai-Rahman/dashboard",
     demo: "https://sweet-melba-ac49d8.netlify.app/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Snake Game",
     img: snake,
     github: "https://github.com/Rubai-Rahman/SnakeGame",

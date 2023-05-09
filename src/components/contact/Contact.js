@@ -1,31 +1,31 @@
-import React from "react"
-import { AiOutlineMail } from "react-icons/ai"
-import { RiMessengerFill } from "react-icons/ri"
-import { IoLogoWhatsapp } from "react-icons/io5"
-import "./Contact.css"
-import { useRef } from "react"
-import emailjs from "emailjs-com"
+import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
+import { RiMessengerFill } from "react-icons/ri";
+import { IoLogoWhatsapp } from "react-icons/io5";
+import "./Contact.css";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const form = useRef()
+  const form = useRef();
   const sendEmail = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
     emailjs.sendForm(
       "service_vddicrl",
       "template_umsjujn",
       form.current,
       "Dpwo2CPp59J99FdEE"
-    )
+    );
     e.target.reset().then(
       (result) => {
-        console.log(result.text)
+        console.log(result.text);
       },
       (error) => {
-        console.log(error.text)
+        console.log(error.text);
       }
-    )
-  }
+    );
+  };
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -54,7 +54,7 @@ const Contact = () => {
           </article>
           <article className="contact_option">
             <IoLogoWhatsapp className="contact_option-icon" />
-            <h4>Email</h4>
+            <h4>WhatsApp</h4>
             <h5>01798100***</h5>
             <a
               href="https://api.whatsapp.com/send?phone+8801798100347"
@@ -82,7 +82,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
