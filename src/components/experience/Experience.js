@@ -1,32 +1,16 @@
-import React from "react"
-import { HiCheckCircle } from "react-icons/hi"
-import "./Experience.css"
+import React from 'react';
+import { HiCheckCircle } from 'react-icons/hi';
+import './Experience.css';
 
 const Experience = () => {
   return (
     <section id="experience">
       <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>.{" "}
+      <h2>My Experience</h2>.{' '}
       <div className="container experience_container">
         <div className="experience_frontEnd">
           <h3>FrontEnd Development</h3>
           <div className="experience_content">
-            <article className="experience_details">
-              <HiCheckCircle className="experience_details-icon" />
-              <div>
-                {" "}
-                <h4>HTML</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <HiCheckCircle className="experience_details-icon" />
-              <div>
-                {" "}
-                <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
             <article className="experience_details">
               <HiCheckCircle className="experience_details-icon" />
               <div>
@@ -37,23 +21,23 @@ const Experience = () => {
             <article className="experience_details">
               <HiCheckCircle className="experience_details-icon" />
               <div>
-                {" "}
+                {' '}
                 <h4>REACT</h4>
-                <small className="text-light">Beginner</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
               <HiCheckCircle className="experience_details-icon" />
               <div>
-                {" "}
+                {' '}
                 <h4>BOOTSTRAP</h4>
-                <small className="text-light">Beginner</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
               <HiCheckCircle className="experience_details-icon" />
               <div>
-                {" "}
+                {' '}
                 <h4>TAILWIND</h4>
                 <small className="text-light">Beginner</small>
               </div>
@@ -61,15 +45,44 @@ const Experience = () => {
             <article className="experience_details">
               <HiCheckCircle className="experience_details-icon" />
               <div>
-                <h4>MATERIAL UI</h4>
-                <small className="text-light">Beginner</small>
+                <h4>Next Js</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
               <HiCheckCircle className="experience_details-icon" />
               <div>
                 <h4>TypeScript</h4>
-                <small className="text-light">Beginner</small>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
+              <div>
+                {' '}
+                <h4>TANSTACK QUERY TABLE</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
+              <div>
+                {' '}
+                <h4>ZUSTAND</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
+              <div>
+                {' '}
+                <h4>REDUX</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+              <div>
+                {' '}
+                <h4>REDUX TOOLKIT</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
@@ -89,7 +102,7 @@ const Experience = () => {
             <article className="experience_details">
               <HiCheckCircle className="experience_details-icon" />
               <div>
-                {" "}
+                {' '}
                 <h4>EXPRESS JS</h4>
                 <small className="text-light">Beginner</small>
               </div>
@@ -104,7 +117,49 @@ const Experience = () => {
             <article className="experience_details">
               <HiCheckCircle className="experience_details-icon" />
               <div>
+                <h4>MONGOOSE</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
+              <div>
                 <h4>Hasura</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+          </div>
+          <h3>Others Technology</h3>
+          <div className="experience_content">
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
+              <div>
+                {' '}
+                <h4>PRISMA</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
+              <div>
+                {' '}
+                <h4>DOCKER</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
+              <div>
+                {' '}
+                <h4>PLAYWIRGHT</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
+              <div>
+                {' '}
+                <h4>DATADOG</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
@@ -112,7 +167,7 @@ const Experience = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
