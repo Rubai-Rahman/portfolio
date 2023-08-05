@@ -42,14 +42,13 @@ const projects = [
     name: 'Blog Site',
 
     img: blog,
-    github: "https://github.com/Rubai-Rahman/company_comunication",
-    demo: "https://company-comunication-eight.vercel.app/",
+    github: 'https://github.com/Rubai-Rahman/company_comunication',
+    demo: 'https://company-comunication-eight.vercel.app/',
   },
-  
+
   {
-   
     id: 6,
-    name: "Admin DashBoard",
+    name: 'Admin DashBoard',
     img: dashboard,
     github: 'https://github.com/Rubai-Rahman/dashboard',
     demo: 'https://sweet-melba-ac49d8.netlify.app/',
@@ -62,9 +61,8 @@ const projects = [
     demo: 'https://next13-crash-course-eosin.vercel.app/',
   },
   {
-  
     id: 8,
-    name: "Snake Game",
+    name: 'Snake Game',
     img: snake,
     github: 'https://github.com/Rubai-Rahman/SnakeGame',
     demo: 'https://rubai-rahman.github.io/SnakeGame/',
