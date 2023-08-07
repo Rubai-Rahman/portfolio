@@ -39,7 +39,7 @@ const Experience = () => {
               <div>
                 {' '}
                 <h4>TAILWIND</h4>
-                <small className="text-light">Beginner</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience_details">
@@ -77,12 +77,15 @@ const Experience = () => {
               <div>
                 {' '}
                 <h4>REDUX</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Begineer</small>
               </div>
+            </article>
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
               <div>
                 {' '}
                 <h4>REDUX TOOLKIT</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Begineer</small>
               </div>
             </article>
           </div>
@@ -124,7 +127,14 @@ const Experience = () => {
             <article className="experience_details">
               <HiCheckCircle className="experience_details-icon" />
               <div>
-                <h4>Hasura</h4>
+                <h4>HASURA</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <HiCheckCircle className="experience_details-icon" />
+              <div>
+                <h4>ORACLE SQL</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>

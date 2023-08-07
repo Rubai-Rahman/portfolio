@@ -8,6 +8,7 @@ import snake from '../../assets/snake.png';
 import blog from '../../assets/blog.png';
 import dashboard from '../../assets/dashboard.png';
 import movie from '../../assets/movie.png';
+import company from '../../assets/cc.png';
 const projects = [
   {
     id: 1,
@@ -39,19 +40,11 @@ const projects = [
   },
   {
     id: 5,
-    name: 'Blog Site',
+    name: 'Company Communication',
 
-    img: blog,
+    img: company,
     github: 'https://github.com/Rubai-Rahman/company_comunication',
     demo: 'https://company-comunication-eight.vercel.app/',
-  },
-
-  {
-    id: 6,
-    name: 'Admin DashBoard',
-    img: dashboard,
-    github: 'https://github.com/Rubai-Rahman/dashboard',
-    demo: 'https://sweet-melba-ac49d8.netlify.app/',
   },
   {
     id: 7,
@@ -61,7 +54,22 @@ const projects = [
     demo: 'https://next13-crash-course-eosin.vercel.app/',
   },
   {
+    id: 6,
+    name: 'Admin DashBoard',
+    img: dashboard,
+    github: 'https://github.com/Rubai-Rahman/dashboard',
+    demo: 'https://sweet-melba-ac49d8.netlify.app/',
+  },
+  {
     id: 8,
+    name: 'Blog Site',
+    img: blog,
+    github: '',
+    demo: 'https://unique-sprinkles-8f0844.netlify.app/',
+  },
+
+  {
+    id: 9,
     name: 'Snake Game',
     img: snake,
     github: 'https://github.com/Rubai-Rahman/SnakeGame',
